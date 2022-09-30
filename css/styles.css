@@ -1,8 +1,35 @@
 body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+}
 
+.list {
+  list-style: none;
 }
 /* колір основного тексту: #212121 */
 /* вторинний колір: #757575 */
 /* акцент: #2196F3 */
 /* колір білий: #FFFFFF */
 /* колір фону футер: #2F303A */
+.logo {
+  color: #000000;
+  text-decoration: none;
+}
+/* Site nav  */
+.site-nav .link {
+  color: #212121;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.auth-nav .link {
+  color: #757575;
+  text-decoration: none;
+}
+.auth-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
