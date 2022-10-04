@@ -126,6 +126,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .feature-list.text {
@@ -141,22 +142,26 @@ body {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.19;
 }
 
 .team-list .text {
-  font-size: 16px;
-  line-height: 1.9;
+  color: var(--title-text-color);
+
+  line-height: 1.19;
 }
 
 /* Наші роботи */
+
 .work-title.list {
+  color: var(--title-text-color);
+
+  line-height: 1.88;
   text-decoration: none;
 }
 
 .work-title {
   color: var(--primary-text-color);
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -164,13 +169,8 @@ body {
   text-decoration: none;
 }
 
-.work-title.text {
-  color: var(--title-text-color);
-
-  font-weight: 400;
-  font-size: 16px;
+.work-text {
   line-height: 1.9;
-  text-decoration: none;
 }
 /* Button */
 .button {
