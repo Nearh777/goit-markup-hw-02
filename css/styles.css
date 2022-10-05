@@ -153,10 +153,10 @@ body {
 
 /* Наші роботи */
 
-.work-title.list {
-  color: var(--title-text-color);
+.work-link {
+  /*color: var(--title-text-color);
 
-  line-height: 1.88;
+  line-height: 1.88;*/
   text-decoration: none;
 }
 
@@ -166,10 +166,11 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-decoration: none;
 }
 
 .work-text {
+  color: var(--title-text-color);
+
   line-height: 1.9;
 }
 /* Button */
